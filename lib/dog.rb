@@ -1,10 +1,11 @@
 # Your code goes here!
 class Dog
-
+      #setter method
       def name= (givenName)
-        @name
+        @name = givenName
       end
 
+      #getter method
       def name
         @name
       end
